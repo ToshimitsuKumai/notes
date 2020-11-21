@@ -1,0 +1,17 @@
+{
+  "projectName": "notes",
+  "version": "3.0",
+  "frontend": "javascript",
+  "javascript": {
+    "framework": "vue",
+    "config": {
+      "SourceDir": "src",
+      "DistributionDir": "dist",
+      "BuildCommand": "nmp run build",
+      "StartCommand": "npm run serve"
+    }
+  },
+  "providers": [
+    "awscloudformation"
+  ]
+}
